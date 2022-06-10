@@ -1,0 +1,23 @@
+
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios ,10.0
+
+target 'HXProjectComponent' do
+
+  pod 'Masonry'
+  pod 'TZImagePickerController'
+  
+  pod 'YYModel'
+  
+  
+  pod 'GKPageScrollView'
+  pod 'GKPageSmoothView'
+  pod 'MJRefresh'
+  #分段控件
+#  pod 'JXCategoryViewExt/Core'
+#  pod 'JXCategoryViewExt/Title'
+    pod 'JXCategoryView'
+
+end
