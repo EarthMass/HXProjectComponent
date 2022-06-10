@@ -44,7 +44,9 @@
     self.dataArr = @[
         @{@"sectionName":@"UI类型",
           @"modules":@[@{@"name":@"图片多选",@"class":@"TestMutiPhotoVC"},
-                       @{@"name":@"嵌套列表",@"class":@"NestTestVC"}]},
+                       @{@"name":@"嵌套列表",@"class":@"NestTestVC"},
+                       @{@"name":@"HUD加载提示",@"class":@"HUDDemo"},
+          ]},
         
     ];
     [self.tableV reloadData];

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8431789F2852F0C5003D580A /* HXHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431789D2852F0C5003D580A /* HXHUD.m */; };
+		843178A22852F0EA003D580A /* HUDDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 843178A12852F0EA003D580A /* HUDDemo.m */; };
+		843178A42852F228003D580A /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 843178A32852F228003D580A /* loading.gif */; };
+		843178A72852F237003D580A /* HXHUDImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843178A62852F237003D580A /* HXHUDImgView.m */; };
+		843178AB28531755003D580A /* FGPopupSchedulerUitl.m in Sources */ = {isa = PBXBuildFile; fileRef = 843178AA28531755003D580A /* FGPopupSchedulerUitl.m */; };
+		843178CD285344A4003D580A /* loading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843178CB285344A4003D580A /* loading@3x.png */; };
+		843178CE285344A4003D580A /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843178CC285344A4003D580A /* loading@2x.png */; };
+		843178D028534589003D580A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843178CF28534589003D580A /* 1.jpg */; };
+		843178D32853481B003D580A /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843178D12853481B003D580A /* 2.jpg */; };
+		843178D42853481B003D580A /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843178D22853481B003D580A /* 3.jpg */; };
 		84639ED9284863270000B403 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 84639ED8284863270000B403 /* readme.md */; };
 		84639EE5284864CD0000B403 /* photo_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84639EDC284864CD0000B403 /* photo_delete@2x.png */; };
 		84639EE6284864CD0000B403 /* HXCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84639EDD284864CD0000B403 /* HXCollectionView.m */; };
@@ -40,6 +50,20 @@
 /* Begin PBXFileReference section */
 		083F30B980AE031DBF699D79 /* Pods-HXProjectComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXProjectComponent.debug.xcconfig"; path = "Target Support Files/Pods-HXProjectComponent/Pods-HXProjectComponent.debug.xcconfig"; sourceTree = "<group>"; };
 		6C486EF30FF8AFCE9377E40C /* Pods-HXProjectComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXProjectComponent.release.xcconfig"; path = "Target Support Files/Pods-HXProjectComponent/Pods-HXProjectComponent.release.xcconfig"; sourceTree = "<group>"; };
+		8431789D2852F0C5003D580A /* HXHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXHUD.m; sourceTree = "<group>"; };
+		8431789E2852F0C5003D580A /* HXHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXHUD.h; sourceTree = "<group>"; };
+		843178A02852F0EA003D580A /* HUDDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDDemo.h; sourceTree = "<group>"; };
+		843178A12852F0EA003D580A /* HUDDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDDemo.m; sourceTree = "<group>"; };
+		843178A32852F228003D580A /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		843178A52852F237003D580A /* HXHUDImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXHUDImgView.h; sourceTree = "<group>"; };
+		843178A62852F237003D580A /* HXHUDImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXHUDImgView.m; sourceTree = "<group>"; };
+		843178A928531755003D580A /* FGPopupSchedulerUitl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGPopupSchedulerUitl.h; sourceTree = "<group>"; };
+		843178AA28531755003D580A /* FGPopupSchedulerUitl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGPopupSchedulerUitl.m; sourceTree = "<group>"; };
+		843178CB285344A4003D580A /* loading@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading@3x.png"; sourceTree = "<group>"; };
+		843178CC285344A4003D580A /* loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading@2x.png"; sourceTree = "<group>"; };
+		843178CF28534589003D580A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		843178D12853481B003D580A /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		843178D22853481B003D580A /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		84639ED8284863270000B403 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = SOURCE_ROOT; };
 		84639EDC284864CD0000B403 /* photo_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_delete@2x.png"; sourceTree = "<group>"; };
 		84639EDD284864CD0000B403 /* HXCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCollectionView.m; sourceTree = "<group>"; };
@@ -117,9 +141,39 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		843178992852F0A9003D580A /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				843178A82852F23B003D580A /* HUD */,
+				843178A02852F0EA003D580A /* HUDDemo.h */,
+				843178A12852F0EA003D580A /* HUDDemo.m */,
+				843178CF28534589003D580A /* 1.jpg */,
+				843178D12853481B003D580A /* 2.jpg */,
+				843178D22853481B003D580A /* 3.jpg */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		843178A82852F23B003D580A /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				843178CC285344A4003D580A /* loading@2x.png */,
+				843178CB285344A4003D580A /* loading@3x.png */,
+				843178A32852F228003D580A /* loading.gif */,
+				843178A928531755003D580A /* FGPopupSchedulerUitl.h */,
+				843178AA28531755003D580A /* FGPopupSchedulerUitl.m */,
+				843178A52852F237003D580A /* HXHUDImgView.h */,
+				843178A62852F237003D580A /* HXHUDImgView.m */,
+				8431789E2852F0C5003D580A /* HXHUD.h */,
+				8431789D2852F0C5003D580A /* HXHUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
 		84639ED72848623A0000B403 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				843178992852F0A9003D580A /* HUD */,
 				84F31AE0284DEB73007A81DA /* Nest */,
 				84639EDA284864B50000B403 /* MutiSel */,
 				84F31AE1284DEBB6007A81DA /* UIMicro.h */,
@@ -364,7 +418,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					847EA18628260B120020A779 = {
 						CreatedOnToolsVersion = 13.1;
@@ -394,11 +448,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843178D028534589003D580A /* 1.jpg in Resources */,
 				84639EE9284864CD0000B403 /* addIcon@3x.png in Resources */,
+				843178CD285344A4003D580A /* loading@3x.png in Resources */,
 				847EA19A28260B130020A779 /* LaunchScreen.storyboard in Resources */,
+				843178D42853481B003D580A /* 3.jpg in Resources */,
+				843178CE285344A4003D580A /* loading@2x.png in Resources */,
 				847EA19728260B130020A779 /* Assets.xcassets in Resources */,
+				843178D32853481B003D580A /* 2.jpg in Resources */,
 				84639ED9284863270000B403 /* readme.md in Resources */,
 				84639EE5284864CD0000B403 /* photo_delete@2x.png in Resources */,
+				843178A42852F228003D580A /* loading.gif in Resources */,
 				847EA19528260B120020A779 /* Main.storyboard in Resources */,
 				84639EE7284864CD0000B403 /* addIcon@2x.png in Resources */,
 			);
@@ -459,17 +519,21 @@
 				84F31B0A284DEBD3007A81DA /* JXCategoryPinTitleCellModel.m in Sources */,
 				847EA19228260B120020A779 /* ViewController.m in Sources */,
 				84F31B08284DEBD3007A81DA /* MutiNestSubItemVC.m in Sources */,
+				8431789F2852F0C5003D580A /* HXHUD.m in Sources */,
 				84F31B04284DEBD3007A81DA /* SampleVC.m in Sources */,
+				843178A72852F237003D580A /* HXHUDImgView.m in Sources */,
 				84F31B0B284DEBD3007A81DA /* JXCategoryPinTitleView.m in Sources */,
 				84639EEA284864CD0000B403 /* LxGridViewFlowLayout.m in Sources */,
 				84F31B0D284DEBD3007A81DA /* PinLocationVC.m in Sources */,
 				84639EE8284864CD0000B403 /* HXMutiSelectCell.m in Sources */,
 				847EA18C28260B120020A779 /* AppDelegate.m in Sources */,
 				84F31B05284DEBD3007A81DA /* SampleSubVC.m in Sources */,
+				843178AB28531755003D580A /* FGPopupSchedulerUitl.m in Sources */,
 				84F31B11284DEBD8007A81DA /* NestTestVC.m in Sources */,
 				84639EF1284864DC0000B403 /* TestMutiPhotoVC.m in Sources */,
 				84F31B09284DEBD3007A81DA /* MutiNestVC.m in Sources */,
 				84F31B0C284DEBD3007A81DA /* JXCategoryPinTitleCell.m in Sources */,
+				843178A22852F0EA003D580A /* HUDDemo.m in Sources */,
 				84F31B0E284DEBD3007A81DA /* GKPinLocationView.m in Sources */,
 				847EA19D28260B130020A779 /* main.m in Sources */,
 				84F31B06284DEBD3007A81DA /* MutiSubItemVC.m in Sources */,
@@ -637,7 +701,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -677,7 +741,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

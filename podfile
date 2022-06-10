@@ -20,4 +20,8 @@ target 'HXProjectComponent' do
 #  pod 'JXCategoryViewExt/Title'
     pod 'JXCategoryView'
 
+    pod 'MBProgressHUD'
+    pod 'SDWebImage'
+#    pod 'FGPopupScheduler'
+
 end

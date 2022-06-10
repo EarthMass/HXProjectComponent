@@ -37,3 +37,12 @@ info中添加  中文配置
 #  pod 'JXCategoryViewExt/Title'
     pod 'JXCategoryView'
 ```
+
+## 加载提示
+### 依赖文件
+```
+    pod 'MBProgressHUD'
+    pod 'SDWebImage'
+    pod 'FGPopupScheduler' # 弹窗优先级
+    
+```
