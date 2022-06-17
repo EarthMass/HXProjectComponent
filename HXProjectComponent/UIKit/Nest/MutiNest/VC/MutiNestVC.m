@@ -62,6 +62,8 @@
     //添加视图
     for (int i = 0; i < self.titleArr.count; i++) {
         MutiNestSubItemVC * subVC = [[MutiNestSubItemVC alloc] init];
+        subVC.headerViewHeight = CGRectGetHeight(self.headerView.frame);
+        
         [self.childVCs addObject:subVC];
     }
     
@@ -120,13 +122,35 @@
 - (UIView *)segmentedViewInPageScrollView:(GKPageScrollView *)pageScrollView {
     return self.categoryView;
 }
+
+//懒加载
 - (BOOL)shouldLazyLoadListInPageScrollView:(GKPageScrollView *)pageScrollView {
     return YES;
 }
 - (id<GKPageListViewDelegate>)pageScrollView:(GKPageScrollView *)pageScrollView initListAtIndex:(NSInteger)index {
- 
+
     return self.childVCs[index];
+
+}
+
+
+- (void)mainTableViewDidScroll:(UIScrollView *)scrollView isMainCanScroll:(BOOL)isMainCanScroll {
+    if (scrollView == self.pageScrollView.mainTableView) {
+        NSLog(@"mainTableView offsetY :%f",scrollView.contentOffset.y);
+        //更新底部价格视图，位置悬浮
+        MutiNestSubItemVC * sub = (MutiNestSubItemVC *)self.childVCs[self.categoryView.selectedIndex];
+        sub.headerViewHeight = CGRectGetHeight(self.headerView.frame);
+        [sub updateBottomViewOffset:scrollView.contentOffset.y];
+    }
     
+    //空页面适应位置
+    NSInteger selectIndex = self.categoryView.selectedIndex;
+    MutiNestSubItemVC * subVC = self.childVCs[selectIndex];
+    if (subVC.isEmpty) {
+        self.pageScrollView.mainTableView.contentSize = CGSizeMake(kScreenWidth, CGRectGetHeight(self.headerView.frame));
+    } else {
+        self.pageScrollView.mainTableView.contentSize = CGSizeMake(kScreenWidth, CGRectGetHeight(self.headerView.frame) + kScreenHeight);
+    }
 }
 
 #pragma mark - UIScrollViewDelegate
@@ -145,6 +169,19 @@
 #pragma mark- JXCategoryViewDelegate
 - (void)categoryView:(JXCategoryBaseView *)categoryView didSelectedItemAtIndex:(NSInteger)index {
     NSLog(@"滚动/或点击到分段 %ld",(long)index);
+
+    MutiNestSubItemVC * subVC = self.childVCs[index];
+    if (subVC.isEmpty) {
+        self.pageScrollView.mainTableView.contentSize = CGSizeMake(kScreenWidth, CGRectGetHeight(self.headerView.frame));
+        [self.pageScrollView scrollToOriginalPoint];
+       
+    } else {
+        self.pageScrollView.mainTableView.contentSize = CGSizeMake(kScreenWidth, CGRectGetHeight(self.headerView.frame) + kScreenHeight);
+    }
+    //更新底部价格视图，位置悬浮
+    MutiNestSubItemVC * sub = (MutiNestSubItemVC *)self.childVCs[self.categoryView.selectedIndex];
+    sub.headerViewHeight = CGRectGetHeight(self.headerView.frame);
+    [sub updateBottomViewOffset:self.pageScrollView.mainTableView.contentOffset.y];
 }
 - (void)categoryView:(JXCategoryBaseView *)categoryView didClickSelectedItemAtIndex:(NSInteger)index {
     NSLog(@"点击分段 %ld",(long)index);

@@ -22,6 +22,12 @@ target 'HXProjectComponent' do
 
     pod 'MBProgressHUD'
     pod 'SDWebImage'
-#    pod 'FGPopupScheduler'
+    
+
+  pod 'zhPopupController'
+  pod 'FGPopupScheduler'
+  
+  pod 'YYText'
+  
 
 end

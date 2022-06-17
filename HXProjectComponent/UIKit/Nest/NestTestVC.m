@@ -38,8 +38,8 @@
         make.edges.equalTo(self.view);
     }];
     
-    self.dataArr = @[@{@"title":@"直接嵌套",@"class":@"MutiNestVC"},
-                     @{@"title":@"多列表嵌套",@"class":@"MutiItemVC"},
+    self.dataArr = @[@{@"title":@"直接嵌套【添加一个scrContainer，全部加载】",@"class":@"MutiNestVC"},
+                     @{@"title":@"多列表嵌套【推荐使用这个,点击加载】",@"class":@"MutiItemVC"},
                      @{@"title":@"单列表",@"class":@"SampleVC"},
                      @{@"title":@"分段定位滑动",@"class":@"PinLocationVC"}];
     [_tableV reloadData];
@@ -63,6 +63,7 @@
     
     NSDictionary * item = self.dataArr[indexPath.row];
     cell.textLabel.text = item[@"title"];
+    cell.textLabel.numberOfLines = 0;
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.accessoryType = UITableViewCellAccessoryNone;

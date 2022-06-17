@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// 多列表
+/// 多列表 【点击后加载subVc】
 @interface MutiItemVC : UIViewController
 
 @end

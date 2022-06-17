@@ -17,6 +17,10 @@
 		843178D028534589003D580A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843178CF28534589003D580A /* 1.jpg */; };
 		843178D32853481B003D580A /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843178D12853481B003D580A /* 2.jpg */; };
 		843178D42853481B003D580A /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843178D22853481B003D580A /* 3.jpg */; };
+		843178F528588831003D580A /* PopViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 843178F428588831003D580A /* PopViewDemo.m */; };
+		843178F828588869003D580A /* HXBaseAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843178F628588869003D580A /* HXBaseAlertView.m */; };
+		843178FB28588953003D580A /* HXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843178FA28588953003D580A /* HXAlertView.m */; };
+		843178FF285889D3003D580A /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 843178FD285889D2003D580A /* UIButton+ImageTitleSpacing.m */; };
 		84639ED9284863270000B403 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 84639ED8284863270000B403 /* readme.md */; };
 		84639EE5284864CD0000B403 /* photo_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84639EDC284864CD0000B403 /* photo_delete@2x.png */; };
 		84639EE6284864CD0000B403 /* HXCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84639EDD284864CD0000B403 /* HXCollectionView.m */; };
@@ -32,6 +36,7 @@
 		847EA19728260B130020A779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847EA19628260B130020A779 /* Assets.xcassets */; };
 		847EA19A28260B130020A779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847EA19828260B130020A779 /* LaunchScreen.storyboard */; };
 		847EA19D28260B130020A779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EA19C28260B130020A779 /* main.m */; };
+		849DC2C0285B145E00D931E8 /* YYTextDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DC2BF285B145E00D931E8 /* YYTextDemo.m */; };
 		84F31B04284DEBD3007A81DA /* SampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F31AE5284DEBD3007A81DA /* SampleVC.m */; };
 		84F31B05284DEBD3007A81DA /* SampleSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F31AE6284DEBD3007A81DA /* SampleSubVC.m */; };
 		84F31B06284DEBD3007A81DA /* MutiSubItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F31AE9284DEBD3007A81DA /* MutiSubItemVC.m */; };
@@ -64,6 +69,14 @@
 		843178CF28534589003D580A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		843178D12853481B003D580A /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		843178D22853481B003D580A /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		843178F328588831003D580A /* PopViewDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopViewDemo.h; sourceTree = "<group>"; };
+		843178F428588831003D580A /* PopViewDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopViewDemo.m; sourceTree = "<group>"; };
+		843178F628588869003D580A /* HXBaseAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBaseAlertView.m; sourceTree = "<group>"; };
+		843178F728588869003D580A /* HXBaseAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBaseAlertView.h; sourceTree = "<group>"; };
+		843178F928588953003D580A /* HXAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXAlertView.h; sourceTree = "<group>"; };
+		843178FA28588953003D580A /* HXAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAlertView.m; sourceTree = "<group>"; };
+		843178FD285889D2003D580A /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		843178FE285889D3003D580A /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
 		84639ED8284863270000B403 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = SOURCE_ROOT; };
 		84639EDC284864CD0000B403 /* photo_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_delete@2x.png"; sourceTree = "<group>"; };
 		84639EDD284864CD0000B403 /* HXCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCollectionView.m; sourceTree = "<group>"; };
@@ -88,6 +101,8 @@
 		847EA19928260B130020A779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847EA19B28260B130020A779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847EA19C28260B130020A779 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849DC2BE285B145E00D931E8 /* YYTextDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTextDemo.h; sourceTree = "<group>"; };
+		849DC2BF285B145E00D931E8 /* YYTextDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTextDemo.m; sourceTree = "<group>"; };
 		84F31AE1284DEBB6007A81DA /* UIMicro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMicro.h; sourceTree = "<group>"; };
 		84F31AE3284DEBD3007A81DA /* SampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleVC.h; sourceTree = "<group>"; };
 		84F31AE4284DEBD3007A81DA /* SampleSubVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleSubVC.h; sourceTree = "<group>"; };
@@ -160,8 +175,6 @@
 				843178CC285344A4003D580A /* loading@2x.png */,
 				843178CB285344A4003D580A /* loading@3x.png */,
 				843178A32852F228003D580A /* loading.gif */,
-				843178A928531755003D580A /* FGPopupSchedulerUitl.h */,
-				843178AA28531755003D580A /* FGPopupSchedulerUitl.m */,
 				843178A52852F237003D580A /* HXHUDImgView.h */,
 				843178A62852F237003D580A /* HXHUDImgView.m */,
 				8431789E2852F0C5003D580A /* HXHUD.h */,
@@ -170,9 +183,53 @@
 			path = HUD;
 			sourceTree = "<group>";
 		};
+		843178F12858864D003D580A /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				843178F228588710003D580A /* PopView */,
+				843178F328588831003D580A /* PopViewDemo.h */,
+				843178F428588831003D580A /* PopViewDemo.m */,
+			);
+			path = PopView;
+			sourceTree = "<group>";
+		};
+		843178F228588710003D580A /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				843178A928531755003D580A /* FGPopupSchedulerUitl.h */,
+				843178AA28531755003D580A /* FGPopupSchedulerUitl.m */,
+				843178F728588869003D580A /* HXBaseAlertView.h */,
+				843178F628588869003D580A /* HXBaseAlertView.m */,
+				843178F928588953003D580A /* HXAlertView.h */,
+				843178FA28588953003D580A /* HXAlertView.m */,
+			);
+			path = PopView;
+			sourceTree = "<group>";
+		};
+		843178FC285889B7003D580A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				843178FE285889D3003D580A /* UIButton+ImageTitleSpacing.h */,
+				843178FD285889D2003D580A /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		84317904285B1265003D580A /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				849DC2BE285B145E00D931E8 /* YYTextDemo.h */,
+				849DC2BF285B145E00D931E8 /* YYTextDemo.m */,
+			);
+			path = YYText;
+			sourceTree = "<group>";
+		};
 		84639ED72848623A0000B403 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				84317904285B1265003D580A /* YYText */,
+				843178FC285889B7003D580A /* Category */,
+				843178F12858864D003D580A /* PopView */,
 				843178992852F0A9003D580A /* HUD */,
 				84F31AE0284DEB73007A81DA /* Nest */,
 				84639EDA284864B50000B403 /* MutiSel */,
@@ -259,8 +316,8 @@
 			children = (
 				84F31B0F284DEBD8007A81DA /* NestTestVC.h */,
 				84F31B10284DEBD8007A81DA /* NestTestVC.m */,
-				84F31AE7284DEBD3007A81DA /* MutiItem */,
 				84F31AEF284DEBD3007A81DA /* MutiNest */,
+				84F31AE7284DEBD3007A81DA /* MutiItem【使用这个】 */,
 				84F31AE2284DEBD3007A81DA /* OneList */,
 				84F31AF7284DEBD3007A81DA /* Smooth */,
 			);
@@ -278,14 +335,14 @@
 			path = OneList;
 			sourceTree = "<group>";
 		};
-		84F31AE7284DEBD3007A81DA /* MutiItem */ = {
+		84F31AE7284DEBD3007A81DA /* MutiItem【使用这个】 */ = {
 			isa = PBXGroup;
 			children = (
 				84F31AE8284DEBD3007A81DA /* VC */,
 				84F31AED284DEBD3007A81DA /* Model */,
 				84F31AEE284DEBD3007A81DA /* View */,
 			);
-			path = MutiItem;
+			path = "MutiItem【使用这个】";
 			sourceTree = "<group>";
 		};
 		84F31AE8284DEBD3007A81DA /* VC */ = {
@@ -326,10 +383,10 @@
 		84F31AF0284DEBD3007A81DA /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				84F31AF4284DEBD3007A81DA /* MutiNestSubItemVC.h */,
-				84F31AF2284DEBD3007A81DA /* MutiNestSubItemVC.m */,
 				84F31AF1284DEBD3007A81DA /* MutiNestVC.h */,
 				84F31AF3284DEBD3007A81DA /* MutiNestVC.m */,
+				84F31AF4284DEBD3007A81DA /* MutiNestSubItemVC.h */,
+				84F31AF2284DEBD3007A81DA /* MutiNestSubItemVC.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -517,6 +574,7 @@
 				84639EE6284864CD0000B403 /* HXCollectionView.m in Sources */,
 				84F31B07284DEBD3007A81DA /* MutiItemVC.m in Sources */,
 				84F31B0A284DEBD3007A81DA /* JXCategoryPinTitleCellModel.m in Sources */,
+				843178F828588869003D580A /* HXBaseAlertView.m in Sources */,
 				847EA19228260B120020A779 /* ViewController.m in Sources */,
 				84F31B08284DEBD3007A81DA /* MutiNestSubItemVC.m in Sources */,
 				8431789F2852F0C5003D580A /* HXHUD.m in Sources */,
@@ -526,12 +584,16 @@
 				84639EEA284864CD0000B403 /* LxGridViewFlowLayout.m in Sources */,
 				84F31B0D284DEBD3007A81DA /* PinLocationVC.m in Sources */,
 				84639EE8284864CD0000B403 /* HXMutiSelectCell.m in Sources */,
+				843178FF285889D3003D580A /* UIButton+ImageTitleSpacing.m in Sources */,
+				843178F528588831003D580A /* PopViewDemo.m in Sources */,
 				847EA18C28260B120020A779 /* AppDelegate.m in Sources */,
 				84F31B05284DEBD3007A81DA /* SampleSubVC.m in Sources */,
 				843178AB28531755003D580A /* FGPopupSchedulerUitl.m in Sources */,
 				84F31B11284DEBD8007A81DA /* NestTestVC.m in Sources */,
 				84639EF1284864DC0000B403 /* TestMutiPhotoVC.m in Sources */,
 				84F31B09284DEBD3007A81DA /* MutiNestVC.m in Sources */,
+				843178FB28588953003D580A /* HXAlertView.m in Sources */,
+				849DC2C0285B145E00D931E8 /* YYTextDemo.m in Sources */,
 				84F31B0C284DEBD3007A81DA /* JXCategoryPinTitleCell.m in Sources */,
 				843178A22852F0EA003D580A /* HUDDemo.m in Sources */,
 				84F31B0E284DEBD3007A81DA /* GKPinLocationView.m in Sources */,

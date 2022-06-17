@@ -10,6 +10,8 @@
 #import <Masonry/Masonry.h>
 #import <MJRefresh/MJRefresh.h>
 
+#import "UIMicro.h"
+
 @interface MutiNestSubItemVC ()<UITableViewDelegate,UITableViewDataSource>
 {
     
@@ -18,6 +20,8 @@
 @property (nonatomic, strong) NSMutableArray * dataArr;
 
 @property (nonatomic, copy) void(^listScrollViewScrollCallback)(UIScrollView *scrollView);
+
+@property (nonatomic, strong) UILabel * bottomView;
 
 @end
 
@@ -36,20 +40,37 @@
 }
 #pragma mark- initUI
 - (void)initUI {
+    
+    [self.view addSubview:self.bottomView];
+    [self.bottomView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.offset(0);
+        make.width.mas_equalTo(kScreenWidth);
+        make.height.mas_equalTo(40);
+        make.bottom.offset(-kSafeArea_Height - self.headerViewHeight);
+    }];
+    self.bottomView.backgroundColor = [UIColor redColor];
+    
     [self.view addSubview:self.tableV];
     [_tableV mas_makeConstraints:^(MASConstraintMaker * make) {
-        make.edges.equalTo(self.view);
+//        make.edges.equalTo(self.view);
+        make.top.offset(0);
+        make.left.right.offset(0);
+        make.bottom.equalTo(self.bottomView.mas_top);
     }];
-    
+
     for (int i = 0; i < 30; i ++) {
         [self.dataArr addObject:[NSString stringWithFormat:@"%d",i]];
     }
+    
     [self.tableV reloadData];
     
     __weak typeof(self) weakSelf = self;
     _tableV.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            
             [weakSelf.tableV.mj_header endRefreshing];
+            [self.dataArr removeAllObjects];
+            [self.tableV reloadData];
         });
 
     }];
@@ -61,8 +82,20 @@
     
 }
 
+//更新底部视图的位置
+- (void)updateBottomViewOffset:(CGFloat)offset {
+//    [UIView performWithoutAnimation:^{
+        [self.bottomView mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.left.right.offset(0);
+            make.bottom.offset(-kSafeArea_Height + offset - self.headerViewHeight);
+        }];
+//    }];
+}
+
 #pragma mark -TableView DataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    self.isEmpty = (self.dataArr.count == 0)?YES:NO;
+    
     return self.dataArr.count;
 }
 
@@ -144,6 +177,14 @@
 
 
 
+- (UILabel *)bottomView {
+    if (!_bottomView) {
+        _bottomView = [[UILabel alloc] init];
+        _bottomView.text = @"底部固定视图";
+        _bottomView.textAlignment = NSTextAlignmentCenter;
+    }
+    return _bottomView;
+}
 
 
 @end
