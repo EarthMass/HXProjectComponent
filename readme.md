@@ -1,5 +1,6 @@
 # 代码功能集合 2022/06/02
 
+# UI
 ##  多图片选择器
 ###  依赖文件
 ```
@@ -43,6 +44,24 @@ info中添加  中文配置
 ```
     pod 'MBProgressHUD'
     pod 'SDWebImage'
-    pod 'FGPopupScheduler' # 弹窗优先级
     
+```
+
+## 弹窗
+### 依赖文件
+```
+  pod 'zhPopupController'
+  pod 'FGPopupScheduler' ##优先级
+```
+
+## 简单富文本使用
+```
+  pod 'YYText'
+```
+
+# 网络
+##网络请求
+###  依赖文件
+```
+pod 'IOAApiManager'
 ```

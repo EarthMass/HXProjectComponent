@@ -50,6 +50,11 @@
                        @{@"name":@"富文本",@"class":@"YYTextDemo"},
                        
           ]},
+        @{@"sectionName":@"网络",
+          @"modules":@[@{@"name":@"请求",@"class":@"NetTestVC"},
+
+                       
+          ]},
         
     ];
     [self.tableV reloadData];

@@ -28,6 +28,10 @@ target 'HXProjectComponent' do
   pod 'FGPopupScheduler'
   
   pod 'YYText'
+#  pod 'YYImage'
+
+
+  pod 'IOAApiManager'
   
 
 end

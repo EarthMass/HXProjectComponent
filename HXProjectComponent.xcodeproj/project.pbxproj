@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840882B6285D753900293CEB /* 666.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 840882B1285D753900293CEB /* 666.jpg */; };
+		840882B7285D753900293CEB /* TestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 840882B3285D753900293CEB /* TestApi.m */; };
+		840882B8285D753900293CEB /* IOARequestCus.m in Sources */ = {isa = PBXBuildFile; fileRef = 840882B4285D753900293CEB /* IOARequestCus.m */; };
+		840882B9285D753900293CEB /* UploadApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 840882B5285D753900293CEB /* UploadApi.m */; };
+		840882BC285D755300293CEB /* NetTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 840882BB285D755300293CEB /* NetTestVC.m */; };
 		8431789F2852F0C5003D580A /* HXHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431789D2852F0C5003D580A /* HXHUD.m */; };
 		843178A22852F0EA003D580A /* HUDDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 843178A12852F0EA003D580A /* HUDDemo.m */; };
 		843178A42852F228003D580A /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 843178A32852F228003D580A /* loading.gif */; };
@@ -37,6 +42,7 @@
 		847EA19A28260B130020A779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847EA19828260B130020A779 /* LaunchScreen.storyboard */; };
 		847EA19D28260B130020A779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EA19C28260B130020A779 /* main.m */; };
 		849DC2C0285B145E00D931E8 /* YYTextDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DC2BF285B145E00D931E8 /* YYTextDemo.m */; };
+		84D754B2285C772500CBFBBC /* dribbble64_imageio.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D754B1285C772500CBFBBC /* dribbble64_imageio.png */; };
 		84F31B04284DEBD3007A81DA /* SampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F31AE5284DEBD3007A81DA /* SampleVC.m */; };
 		84F31B05284DEBD3007A81DA /* SampleSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F31AE6284DEBD3007A81DA /* SampleSubVC.m */; };
 		84F31B06284DEBD3007A81DA /* MutiSubItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F31AE9284DEBD3007A81DA /* MutiSubItemVC.m */; };
@@ -55,6 +61,15 @@
 /* Begin PBXFileReference section */
 		083F30B980AE031DBF699D79 /* Pods-HXProjectComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXProjectComponent.debug.xcconfig"; path = "Target Support Files/Pods-HXProjectComponent/Pods-HXProjectComponent.debug.xcconfig"; sourceTree = "<group>"; };
 		6C486EF30FF8AFCE9377E40C /* Pods-HXProjectComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXProjectComponent.release.xcconfig"; path = "Target Support Files/Pods-HXProjectComponent/Pods-HXProjectComponent.release.xcconfig"; sourceTree = "<group>"; };
+		840882AF285D753900293CEB /* TestApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestApi.h; sourceTree = "<group>"; };
+		840882B0285D753900293CEB /* IOARequestCus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOARequestCus.h; sourceTree = "<group>"; };
+		840882B1285D753900293CEB /* 666.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 666.jpg; sourceTree = "<group>"; };
+		840882B2285D753900293CEB /* UploadApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadApi.h; sourceTree = "<group>"; };
+		840882B3285D753900293CEB /* TestApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestApi.m; sourceTree = "<group>"; };
+		840882B4285D753900293CEB /* IOARequestCus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOARequestCus.m; sourceTree = "<group>"; };
+		840882B5285D753900293CEB /* UploadApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadApi.m; sourceTree = "<group>"; };
+		840882BA285D755300293CEB /* NetTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetTestVC.h; sourceTree = "<group>"; };
+		840882BB285D755300293CEB /* NetTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetTestVC.m; sourceTree = "<group>"; };
 		8431789D2852F0C5003D580A /* HXHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXHUD.m; sourceTree = "<group>"; };
 		8431789E2852F0C5003D580A /* HXHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXHUD.h; sourceTree = "<group>"; };
 		843178A02852F0EA003D580A /* HUDDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDDemo.h; sourceTree = "<group>"; };
@@ -103,6 +118,7 @@
 		847EA19C28260B130020A779 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		849DC2BE285B145E00D931E8 /* YYTextDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTextDemo.h; sourceTree = "<group>"; };
 		849DC2BF285B145E00D931E8 /* YYTextDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTextDemo.m; sourceTree = "<group>"; };
+		84D754B1285C772500CBFBBC /* dribbble64_imageio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dribbble64_imageio.png; sourceTree = "<group>"; };
 		84F31AE1284DEBB6007A81DA /* UIMicro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMicro.h; sourceTree = "<group>"; };
 		84F31AE3284DEBD3007A81DA /* SampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleVC.h; sourceTree = "<group>"; };
 		84F31AE4284DEBD3007A81DA /* SampleSubVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleSubVC.h; sourceTree = "<group>"; };
@@ -154,6 +170,30 @@
 				6C486EF30FF8AFCE9377E40C /* Pods-HXProjectComponent.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		840882AD285D747400293CEB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				840882AE285D753900293CEB /* TestApi */,
+				840882BA285D755300293CEB /* NetTestVC.h */,
+				840882BB285D755300293CEB /* NetTestVC.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		840882AE285D753900293CEB /* TestApi */ = {
+			isa = PBXGroup;
+			children = (
+				840882B1285D753900293CEB /* 666.jpg */,
+				840882B0285D753900293CEB /* IOARequestCus.h */,
+				840882B4285D753900293CEB /* IOARequestCus.m */,
+				840882AF285D753900293CEB /* TestApi.h */,
+				840882B3285D753900293CEB /* TestApi.m */,
+				840882B2285D753900293CEB /* UploadApi.h */,
+				840882B5285D753900293CEB /* UploadApi.m */,
+			);
+			path = TestApi;
 			sourceTree = "<group>";
 		};
 		843178992852F0A9003D580A /* HUD */ = {
@@ -218,6 +258,7 @@
 		84317904285B1265003D580A /* YYText */ = {
 			isa = PBXGroup;
 			children = (
+				84D754B1285C772500CBFBBC /* dribbble64_imageio.png */,
 				849DC2BE285B145E00D931E8 /* YYTextDemo.h */,
 				849DC2BF285B145E00D931E8 /* YYTextDemo.m */,
 			);
@@ -296,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				84639ED8284863270000B403 /* readme.md */,
+				840882AD285D747400293CEB /* Network */,
 				84639ED72848623A0000B403 /* UIKit */,
 				847EA18A28260B120020A779 /* AppDelegate.h */,
 				847EA18B28260B120020A779 /* AppDelegate.m */,
@@ -508,6 +550,7 @@
 				843178D028534589003D580A /* 1.jpg in Resources */,
 				84639EE9284864CD0000B403 /* addIcon@3x.png in Resources */,
 				843178CD285344A4003D580A /* loading@3x.png in Resources */,
+				840882B6285D753900293CEB /* 666.jpg in Resources */,
 				847EA19A28260B130020A779 /* LaunchScreen.storyboard in Resources */,
 				843178D42853481B003D580A /* 3.jpg in Resources */,
 				843178CE285344A4003D580A /* loading@2x.png in Resources */,
@@ -516,6 +559,7 @@
 				84639ED9284863270000B403 /* readme.md in Resources */,
 				84639EE5284864CD0000B403 /* photo_delete@2x.png in Resources */,
 				843178A42852F228003D580A /* loading.gif in Resources */,
+				84D754B2285C772500CBFBBC /* dribbble64_imageio.png in Resources */,
 				847EA19528260B120020A779 /* Main.storyboard in Resources */,
 				84639EE7284864CD0000B403 /* addIcon@2x.png in Resources */,
 			);
@@ -575,6 +619,7 @@
 				84F31B07284DEBD3007A81DA /* MutiItemVC.m in Sources */,
 				84F31B0A284DEBD3007A81DA /* JXCategoryPinTitleCellModel.m in Sources */,
 				843178F828588869003D580A /* HXBaseAlertView.m in Sources */,
+				840882B9285D753900293CEB /* UploadApi.m in Sources */,
 				847EA19228260B120020A779 /* ViewController.m in Sources */,
 				84F31B08284DEBD3007A81DA /* MutiNestSubItemVC.m in Sources */,
 				8431789F2852F0C5003D580A /* HXHUD.m in Sources */,
@@ -582,13 +627,16 @@
 				843178A72852F237003D580A /* HXHUDImgView.m in Sources */,
 				84F31B0B284DEBD3007A81DA /* JXCategoryPinTitleView.m in Sources */,
 				84639EEA284864CD0000B403 /* LxGridViewFlowLayout.m in Sources */,
+				840882B7285D753900293CEB /* TestApi.m in Sources */,
 				84F31B0D284DEBD3007A81DA /* PinLocationVC.m in Sources */,
 				84639EE8284864CD0000B403 /* HXMutiSelectCell.m in Sources */,
 				843178FF285889D3003D580A /* UIButton+ImageTitleSpacing.m in Sources */,
 				843178F528588831003D580A /* PopViewDemo.m in Sources */,
+				840882BC285D755300293CEB /* NetTestVC.m in Sources */,
 				847EA18C28260B120020A779 /* AppDelegate.m in Sources */,
 				84F31B05284DEBD3007A81DA /* SampleSubVC.m in Sources */,
 				843178AB28531755003D580A /* FGPopupSchedulerUitl.m in Sources */,
+				840882B8285D753900293CEB /* IOARequestCus.m in Sources */,
 				84F31B11284DEBD8007A81DA /* NestTestVC.m in Sources */,
 				84639EF1284864DC0000B403 /* TestMutiPhotoVC.m in Sources */,
 				84F31B09284DEBD3007A81DA /* MutiNestVC.m in Sources */,
